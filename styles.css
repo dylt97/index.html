@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 18px 60px 18px;
+    margin: 18px;
     padding: 18px;
 }
 
@@ -20,6 +20,7 @@
     align-content: center;
     margin: 18px;
     padding: 18px;
+    margin-bottom: 70px;
 }
 
 .logo {
@@ -36,9 +37,6 @@
 
 .toplinks {
     margin-right: 160px;
-}
-
-.toplinks {
     display: flex;
     gap: 16px;
 }
