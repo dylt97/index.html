@@ -1,6 +1,6 @@
 * {
-    border: 1px solid hotpink;
-}
+    border: 1px solid hotpink; 
+} 
 
 .section1 {
     background-color: #1F2937;
@@ -9,13 +9,14 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 18px 60px 18px;
     padding: 18px;
 }
 
 .infobox {
     display: flex;
-    
+    justify-content: space-between;
     align-content: center;
     margin: 18px;
     padding: 18px;
@@ -31,6 +32,10 @@
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.toplinks {
+    margin-right: 160px;
 }
 
 .toplinks {
@@ -63,4 +68,11 @@ button.signup {
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.infobox img {
+    width: 520px;
+    margin-right: 160px;
 }
