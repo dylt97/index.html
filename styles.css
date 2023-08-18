@@ -1,6 +1,6 @@
 /* {
     border: 1px solid hotpink; 
-}*/ 
+}*/
 
 body{
     margin: 0;
@@ -105,6 +105,10 @@ button.signup {
 
 .boxinfo {
     width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .box {
@@ -112,4 +116,14 @@ button.signup {
     height: 160px;
     width: 160px;
     border-radius: 15px;
+    flex-shrink: 0;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    text-align: center;
+    display: flex; 
+    font-size: 18px;
+    color: #1F2937;
+    width: 150px;
 }
