@@ -1,6 +1,6 @@
-* {
+/* {
     border: 1px solid hotpink; 
-} 
+}*/ 
 
 .section1 {
     background-color: #1F2937;
@@ -20,6 +20,7 @@
     align-content: center;
     margin: 18px;
     padding: 18px;
+    padding-bottom: 80px;
     margin-bottom: 70px;
 }
 
@@ -44,7 +45,6 @@
 span.toptext {
     font-size: 48px;
     color: #F9FAF8;
-    margin-bottom: 8px;
     font-weight: 800;
 }
 
@@ -59,6 +59,7 @@ span.bottomtext {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 8px;
 }
 
 button.signup {
