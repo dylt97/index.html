@@ -2,6 +2,10 @@
     border: 1px solid hotpink; 
 }*/ 
 
+body{
+    margin: 0;
+}
+
 .section1 {
     background-color: #1F2937;
 }
@@ -10,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 18px;
+    margin: 0px 18px 18px 18px;
     padding: 18px;
 }
 
@@ -18,10 +22,9 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 18px;
+    margin: 18px 18px 0px 18px;
     padding: 18px;
     padding-bottom: 80px;
-    margin-bottom: 70px;
 }
 
 .logo {
@@ -77,4 +80,36 @@ button.signup {
     width: 520px;
     height: 350px;
     margin-right: 160px;
+}
+
+.section2 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infohead {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 45px;
+}
+
+.infobody {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.boxinfo {
+    width: 160px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
 }
