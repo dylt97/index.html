@@ -84,7 +84,7 @@ button.signup {
 
 .section2 {
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,4 +131,20 @@ button.signup {
 
 .section3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: 800;
 }
