@@ -185,3 +185,16 @@ span.topcall {
 span.bottomcall {
     font-size: 18px;
 }
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #1F2937;
+    color:#F9FAF8;
+}
+
+.footertext {
+    font-size: 18px;
+}
